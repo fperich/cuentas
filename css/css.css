@@ -1,0 +1,75 @@
+/* CSS Document */
+
+* {
+	font-family: Calibri;
+	font-size: 12px;
+}
+
+.container {
+	display: table;
+	width: auto;
+}
+
+.rowHeader {
+	display: table-row;
+}
+
+.cabecera {
+	background-color: #ff9933;
+	font-weight: bold;
+	display: table-cell;
+	text-align: right;
+	padding: 0px 10px 0 10px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.cabecera:first-of-type {
+	text-align: left;
+}
+
+.celda, .pagado, .nopagado, .abonado {
+	height: 100%;
+	display: table-cell;
+	padding: 0px 10px 0 10px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.totales{
+	background-color: #ec7600;
+	font-weight: bold;
+	display: table-row;
+}
+
+.celda{
+	background-color: #ffc488;
+}
+.pagado{
+	background-color: #8eff53;
+	text-align: right;
+}
+.nopagado{
+	background-color: #ff0000;
+	text-align: right;
+	color: white;
+}
+.abonado{
+	background-color: #add8e6;
+	text-align: right;
+}
+
+
+a{
+	color: black;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+
+
+.nopagado a {
+	color: white;
+}
